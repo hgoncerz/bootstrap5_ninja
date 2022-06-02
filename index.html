@@ -14,33 +14,34 @@
     <title>Document</title>
   </head>
   <body>
-    <!--basic buttons-->
-    <h2>Buttons</h2>
-    <button class="btn btn-primary">primary button</button>
-    <button class="btn btn-secondary">primary button</button>
-    <!-- anchor tags as buttons-->
-    <h2>links as buttons</h2>
-    <a href="#" class="btn btn-info">info anch tag</a>
-    <a href="#" class="btn btn-success">success anchor tag</a>
-    <!-- button sizes -->
-    <h2>button sizes</h2>
-    <button class="btn btn-lg btn-danger">large daner button</button>
-    <button class="btn btn-sm btn-warning">small worning button</button>
-    <!-- outlined styles-->
-    <h2>Button styles</h2>
-    <button class="btn btn-outline-primary">outlined primary button</button>
-    <button class="btn btn-outline-secondary btn-lg">
-      outlined primary button
-    </button>
-
-    <!--button group-->
-    <h2>Button groups</h2>
-
-    <div class="btn-group">
-      <a href="#" class="btn btn-primary">button 1</a>
-      <a href="#" class="btn btn-warning">button 2</a>
-      <a href="#" class="btn btn-success">button 3</a>
+    <!--margin and padding-->
+    <div class="bg-primary m-1 p-1">small maring and padding</div>
+    <div class="bg-primary m-5 p-5">small maring and padding</div>
+    <div class="bg-primary my-3 px-5">
+      margin in y direction, padding in x direction
     </div>
+    <div class="bg-primary mt-3 mb-4 ps-5 pt-4 pe-2 pb-1 ms-5 me-1">
+      m & p for each direction
+    </div>
+    <!--borders-->
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual border</div>
+    <div class="m-3 p-3 border-start border-success">border succes col</div>
+    <div class="m-3 p-3 border-start border-danger border-5">
+      thicekr border
+    </div>
+    <div class="m-3 p-3 rounded border border-5">rounder corners</div>
+    <div class="m-3 p-3 rounded-pill border border-5"></div>
+    <!--box shadow-->
+    <div class="m-3 p-3 shadow-sm">element with box shadow</div>
+    <div class="m-3 p-3 shadow">element with box shadow</div>
+    <!--font weight-->
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p>text</p>
+    <p class="fw-light">light text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-light">italic light text</p>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
